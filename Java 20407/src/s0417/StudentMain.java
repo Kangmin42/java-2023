@@ -10,6 +10,9 @@ public class StudentMain {
 		hong.name="홍길동";
 		hong.number=7;
 		hong.printAll();
+		
+		//Kangmin42 <n59221222@gmail.com>
+		//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
 	}
 
 }

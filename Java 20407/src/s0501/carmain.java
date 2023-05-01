@@ -1,5 +1,7 @@
 package s0501;
 
+import s0417.Student;
+
 public class carmain {
 
 	public static void main(String[] args) {
@@ -19,12 +21,11 @@ public class carmain {
 		mycar.speedup();
 		mycar.stop();
 		
-		yourcar.color="black";
-		yourcar.owner="jj";
-		yourcar.km=0;
-		yourcar.speed=0;
 		yourcar.printcarinfo();
-
+		yourcar.speedup();
+		
+		Student s=new Student();
+		
 	}
 
 }

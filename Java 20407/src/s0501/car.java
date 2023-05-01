@@ -8,12 +8,15 @@ public class car {
 		String color;
 		int speed;
 		int km;
+		static int count;
 		//생성자
 		car(){
 			
 		}
 		car(String name){
 			owner=name;
+			count++;
+			System.out.println("총차의 대수:"+count);
 		}
 		car(String name,String col,int speed){
 			owner=name;

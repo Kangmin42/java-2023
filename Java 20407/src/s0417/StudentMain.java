@@ -14,5 +14,4 @@ public class StudentMain {
 		//Kangmin42 <n59221222@gmail.com>
 		//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
 	}
-
 }

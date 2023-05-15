@@ -5,7 +5,6 @@ public class 변수1 {
 	public static void main(String[] args) {
 		int a= 123;
 		System.out.println(a);
-		long a =2147483647L;
 		int b=1;
 		long c=a+b;
 		System.out.println(c);
